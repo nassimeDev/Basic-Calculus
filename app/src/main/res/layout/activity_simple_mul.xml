@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://zschemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF5EE"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@drawable/buttons"
+            android:text=" Let take an example:
+              234 x 2 = ? "
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="-55dp"
+            android:background="@drawable/vocal"
+            android:id="@+id/start"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:background="@drawable/buttons"
+            android:text=" First of all we convert the operation as always to it vertical form:"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="-55dp"
+            android:background="@drawable/vocal"
+            android:id="@+id/first"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttons"
+            android:text="
+                        234"
+            android:textColor="#87CEEB"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttons"
+            android:text="
+                     x     2"
+            android:textColor="#87CEEB"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:background="@drawable/buttons"
+            android:text="
+                     --------"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:background="@drawable/buttons"
+            android:text="
+                     = ???"
+            android:textColor="#87CEEB"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttons"
+            android:text=" we repeat the same principles we learnt, just in this case
+we multiply our numbers to the whole row, 2x4, 2x3 and 2x2 "
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="-55dp"
+            android:background="@drawable/vocal"
+            android:id="@+id/repeat"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttons"
+            android:text="
+                        234                 "
+            android:textColor="#87CEEB"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttons"
+            android:text="
+                     x     2   "
+            android:textColor="#87CEEB"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:background="@drawable/buttons"
+            android:text="
+                     --------"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:background="@drawable/buttons"
+            android:text="
+                     = 468"
+            android:textColor="#87CEEB"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</ScrollView>

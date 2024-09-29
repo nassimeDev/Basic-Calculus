@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".main.Practice"
+    android:background="#F5F5DC"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttons"
+            android:text="User: "
+            android:textColor="#81719E"
+            android:textSize="18dp"
+            />
+        <Button
+            android:id="@+id/lev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttons"
+            android:text="level 0"
+            android:textColor="#81719E"
+            android:textSize="18dp"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="320sp"
+        android:layout_height="55sp"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/buttons"
+        android:text="@string/addition"
+        android:textColor="#81719E"
+        android:textSize="27sp" />
+
+    <Button
+        android:layout_width="320sp"
+        android:layout_height="55dp"
+        android:text="@string/subtraction"
+        android:textSize="27sp"
+        android:textColor="#81719E"
+        android:background="@drawable/buttons"
+        android:id="@+id/sub"
+        android:layout_marginTop="15dp"
+
+        />
+    <Button
+        android:layout_width="320sp"
+        android:layout_height="55dp"
+        android:text="@string/multiplication"
+        android:textSize="27sp"
+        android:textColor="#81719E"
+        android:background="@drawable/buttons"
+        android:id="@+id/mul"
+        android:layout_marginTop="15dp"
+        />
+    <Button
+        android:layout_width="320sp"
+        android:layout_height="55dp"
+        android:text="@string/division"
+        android:textSize="27sp"
+        android:textColor="#81719E"
+        android:background="@drawable/buttons"
+        android:id="@+id/div"
+        android:layout_marginTop="15dp"
+        />
+</LinearLayout>
+
+</RelativeLayout>

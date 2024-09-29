@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://zschemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF5EE"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@drawable/buttons"
+            android:text=" Let take an example:
+              246 - 134 = ? "
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="-55dp"
+            android:background="@drawable/vocal"
+            android:id="@+id/start"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:background="@drawable/buttons"
+            android:text=" First of all we convert the operation as always to it vertical form:"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="-55dp"
+            android:background="@drawable/vocal"
+            android:id="@+id/first"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttons"
+            android:text="
+                        246"
+            android:textColor="@color/DarkGoldenRod"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttons"
+            android:text="
+                     - 134"
+            android:textColor="@color/DarkGoldenRod"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:background="@drawable/buttons"
+            android:text="
+                     --------"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:background="@drawable/buttons"
+            android:text="
+                     = ???"
+            android:textColor="#FF0000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttons"
+            android:text=" this time subtract the numbers that are in the same lines, the first
+minus the seconde: 6-4 = 2"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="-55dp"
+            android:background="@drawable/vocal"
+            android:id="@+id/thisTime"/>
+       <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttons"
+            android:text="
+                        246                 "
+            android:textColor="@color/DarkGoldenRod"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttons"
+            android:text="
+                     - 134"
+            android:textColor="@color/DarkGoldenRod"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:background="@drawable/buttons"
+            android:text="
+                     --------"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:background="@drawable/buttons"
+            android:text="
+                     = ??2"
+            android:textColor="#FF0000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="-65dp"
+            android:background="@drawable/buttons"
+            android:text="////// - //// = //"
+            android:textAlignment="center"
+            android:textColor="#FF0000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:background="@drawable/warning" />
+    </LinearLayout>
+</ScrollView>

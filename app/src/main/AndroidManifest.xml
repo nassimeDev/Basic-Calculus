@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BasicCalculus"
+        tools:targetApi="31">
+        <activity
+            android:name=".degit1.RandomDigits"
+            android:exported="false" />
+        <activity
+            android:name=".playing.gameManager"
+            android:exported="false" />
+        <activity
+            android:name=".playing.playDivision"
+            android:exported="false" />
+        <activity
+            android:name=".playing.playMultiplaction"
+            android:exported="false" />
+        <activity
+            android:name=".playing.playSubtraction"
+            android:exported="false" />
+        <activity
+            android:name=".playing.playAddition"
+            android:exported="false" />
+        <activity
+            android:name=".Learn.SimpleSub"
+            android:exported="false" />
+        <activity
+            android:name=".Learn.AdvancedDiv"
+            android:exported="false" />
+        <activity
+            android:name=".Learn.SimpleDiv"
+            android:exported="false" />
+        <activity
+            android:name=".Learn.AdvancedMul"
+            android:exported="false" />
+        <activity
+            android:name=".Learn.SimpleMul"
+            android:exported="false" />
+        <activity
+            android:name=".Learn.AdvancedSub"
+            android:exported="false" />
+        <activity
+            android:name=".Learn.NoCarryAdd"
+            android:exported="false" />
+        <activity
+            android:name=".Learn.CarryAdd"
+            android:exported="false" />
+        <activity
+            android:name=".Learn.LearnDivision"
+            android:exported="false" />
+        <activity
+            android:name=".Learn.LearnMultiplication"
+            android:exported="false" />
+        <activity
+            android:name=".Learn.LearnSubtraction"
+            android:exported="false" />
+        <activity
+            android:name=".Learn.LearnAddition"
+            android:exported="false" />
+        <activity
+            android:name=".main.Learn"
+            android:exported="false" />
+        <activity
+            android:name=".jeuPractice.Congratulation"
+            android:exported="false" />
+        <activity
+            android:name=".jeuPractice.GameView"
+            android:exported="false" />
+        <activity
+            android:name=".main.Practice"
+            android:exported="false" />
+        <activity
+            android:name=".degit1.B9"
+            android:exported="false" />
+        <activity
+            android:name=".degit1.B8"
+            android:exported="false" />
+        <activity
+            android:name=".degit1.B7"
+            android:exported="false" />
+        <activity
+            android:name=".degit1.B6"
+            android:exported="false" />
+        <activity
+            android:name=".degit1.B5"
+            android:exported="false" />
+        <activity
+            android:name=".degit1.B4"
+            android:exported="false" />
+        <activity
+            android:name=".degit1.B3"
+            android:exported="false" />
+        <activity
+            android:name=".degit1.B2"
+            android:exported="false" />
+        <activity
+            android:name=".degit1.B1"
+            android:exported="false" />
+        <activity
+            android:name=".degit1.B0"
+            android:exported="false" />
+        <activity
+            android:name=".main.Digit1"
+            android:exported="false" />
+        <activity
+            android:name=".main.Basics"
+            android:exported="false" />
+        <activity
+            android:name=".main.w"
+            android:exported="false" />
+        <activity
+            android:name=".main.Connecting"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://zschemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF5EE"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@drawable/buttons"
+            android:text=" Let take an example:
+              246 x 467 = ? "
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="-55dp"
+            android:background="@drawable/vocal"
+            android:id="@+id/start"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:background="@drawable/buttons"
+            android:text=" First of all we convert the operation as always to it vertical form:"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="-55dp"
+            android:background="@drawable/vocal"
+            android:id="@+id/first"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttons"
+            android:text="
+                        246"
+            android:textColor="#87CEEB"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttons"
+            android:text="
+                     x 467"
+            android:textColor="#87CEEB"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:background="@drawable/buttons"
+            android:text="
+                     --------"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:background="@drawable/buttons"
+            android:text="
+                     = ???"
+            android:textColor="#87CEEB"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttons"
+            android:text=" now a little bit complicated, as we all know the first row
+is the result of 7x246, so we right it, then the second row is for 6x246, but what do the ' . ' stands for? "
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="-55dp"
+            android:background="@drawable/vocal"
+            android:id="@+id/now"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttons"
+            android:text=" after we multiply all rows 7x246, 6x246 and 4x246 we add them to each other"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="-55dp"
+            android:background="@drawable/vocal"
+            android:id="@+id/after"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttons"
+            android:text=" the ' . ' is the space that separate the units from the tens and the hundreds we take it as a 0  "
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="-55dp"
+            android:background="@drawable/vocal"
+            android:id="@+id/space"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttons"
+            android:text="
+                        246                 "
+            android:textColor="#87CEEB"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttons"
+            android:text="
+                     x 467   "
+            android:textColor="#87CEEB"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:background="@drawable/buttons"
+            android:text="
+                     --------"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:background="@drawable/buttons"
+            android:text="
+                  = 1 722"
+            android:textColor="#FF0000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:background="@drawable/buttons"
+            android:text="
+                + 20 76 ."
+            android:textColor="#FF0000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:background="@drawable/buttons"
+            android:text="
+              +   90 4 . ."
+            android:textColor="#FF0000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:background="@drawable/buttons"
+            android:text="
+             ---------------"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:background="@drawable/buttons"
+            android:text="
+             = 112 882"
+            android:textColor="#87CEEB"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</ScrollView>
